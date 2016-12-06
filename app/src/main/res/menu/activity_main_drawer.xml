@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
+    <!-- <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_menu_camera"
@@ -18,19 +18,47 @@
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
             android:title="Tools" />
-    </group>
+    </group>-->
 
-    <item android:title="Communicate">
+    <item android:title="GESTION COMMANDES">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/Ajouter_commande"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/Ajouter_commande" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/Liste_commande"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/Liste_commandes" />
         </menu>
     </item>
+
+    <item android:title="GESTION LIVREURS">
+        <menu>
+            <item
+                android:id="@+id/Ajouter_livreur"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/Ajouter_livreur" />
+            <item
+                android:id="@+id/Liste_livreur"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/Liste_livreur" />
+        </menu>
+    </item>
+
+    <item android:title="CONFIGURATION">
+        <menu>
+            <item
+                android:id="@+id/Set_setting"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/Set_Setting" />
+            <item
+                android:id="@+id/Set_server"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/Set_server" />
+        </menu>
+    </item>
+
+
 
 </menu>
